@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/quick_dial"
+        android:enabled="true"
+        android:icon="@mipmap/ic_quick_dial"
+        android:title="@string/quick_dial"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/call_records"
+        android:enabled="true"
+        android:icon="@mipmap/ic_call_records"
+        android:title="@string/call_records"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/contact_book"
+        android:enabled="true"
+        android:icon="@mipmap/ic_contact_book"
+        android:title="@string/contact_book"
+        app:showAsAction="ifRoom" />
+
+</menu>
